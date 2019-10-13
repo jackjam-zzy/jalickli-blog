@@ -1,0 +1,47 @@
+2019-08-15 19:55:13.250  INFO 17148 --- [restartedMain] com.jalickli.ufoblog.UfoblogApplication  : Starting UfoblogApplication on DESKTOP-F23TFQ3 with PID 17148 (F:\summer\target\classes started by jackjam in F:\summer)
+2019-08-15 19:55:13.250  INFO 17148 --- [restartedMain] com.jalickli.ufoblog.UfoblogApplication  : No active profile set, falling back to default profiles: default
+2019-08-15 19:55:14.369  INFO 17148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-15 19:55:14.369  INFO 17148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-15 19:55:14.370  INFO 17148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-15 19:55:14.426  INFO 17148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-15 19:55:14.426  INFO 17148 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1172 ms
+2019-08-15 19:55:14.617  INFO 17148 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 19:55:14.668  INFO 17148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-15 19:55:14.746  INFO 17148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-15 19:55:14.783  INFO 17148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-15 19:55:14.784  INFO 17148 --- [restartedMain] com.jalickli.ufoblog.UfoblogApplication  : Started UfoblogApplication in 2.172 seconds (JVM running for 1809.699)
+2019-08-15 19:55:14.788  INFO 17148 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-08-15 19:55:17.332  INFO 17148 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-15 19:55:17.919  INFO 17148 --- [restartedMain] com.jalickli.ufoblog.UfoblogApplication  : Starting UfoblogApplication on DESKTOP-F23TFQ3 with PID 17148 (F:\summer\target\classes started by jackjam in F:\summer)
+2019-08-15 19:55:17.919  INFO 17148 --- [restartedMain] com.jalickli.ufoblog.UfoblogApplication  : No active profile set, falling back to default profiles: default
+2019-08-15 19:55:19.306  INFO 17148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-15 19:55:19.314  INFO 17148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-15 19:55:19.315  INFO 17148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-15 19:55:19.376  INFO 17148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-15 19:55:19.376  INFO 17148 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1454 ms
+2019-08-15 19:55:19.728  INFO 17148 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 19:55:19.807  INFO 17148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-15 19:55:20.359  INFO 17148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-15 19:55:20.390  INFO 17148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-15 19:55:20.391  INFO 17148 --- [restartedMain] com.jalickli.ufoblog.UfoblogApplication  : Started UfoblogApplication in 2.58 seconds (JVM running for 1815.305)
+2019-08-15 19:55:20.394  INFO 17148 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-08-15 19:55:24.703  INFO 17148 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-15 19:55:25.093  INFO 17148 --- [restartedMain] com.jalickli.ufoblog.UfoblogApplication  : Starting UfoblogApplication on DESKTOP-F23TFQ3 with PID 17148 (F:\summer\target\classes started by jackjam in F:\summer)
+2019-08-15 19:55:25.093  INFO 17148 --- [restartedMain] com.jalickli.ufoblog.UfoblogApplication  : No active profile set, falling back to default profiles: default
+2019-08-15 19:55:25.456  INFO 17148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-15 19:55:25.457  INFO 17148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-15 19:55:25.457  INFO 17148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-15 19:55:25.481  INFO 17148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-15 19:55:25.481  INFO 17148 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 386 ms
+2019-08-15 19:55:25.602  INFO 17148 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 19:55:25.650  INFO 17148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-15 19:55:25.715  INFO 17148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-15 19:55:25.755  INFO 17148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-15 19:55:25.755  INFO 17148 --- [restartedMain] com.jalickli.ufoblog.UfoblogApplication  : Started UfoblogApplication in 0.691 seconds (JVM running for 1820.669)
+2019-08-15 19:55:25.759  INFO 17148 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-08-15 19:55:36.836  INFO 12092 --- [main] c.j.ufoblog.UfoblogApplicationTests      : Starting UfoblogApplicationTests on DESKTOP-F23TFQ3 with PID 12092 (started by jackjam in F:\summer)
+2019-08-15 19:55:36.838  INFO 12092 --- [main] c.j.ufoblog.UfoblogApplicationTests      : No active profile set, falling back to default profiles: default
+2019-08-15 19:55:40.211  INFO 12092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 19:55:40.916  INFO 12092 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-15 19:55:41.602  INFO 12092 --- [main] c.j.ufoblog.UfoblogApplicationTests      : Started UfoblogApplicationTests in 5.656 seconds (JVM running for 7.809)
+2019-08-15 19:55:42.473  INFO 12092 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: info
+    com.imcoding: debug
+  file: log/imcoding.log
+
+spring:
+  profiles: dev

@@ -1,0 +1,12 @@
+body {
+    background: url("../img/bg.jpg");
+}
+.media-object {
+    width: 55px;
+    height: 55px;
+}
+.text-desc {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999999;
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/publish.css">
+    <title>发布 - UFO博客</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">UFO博客</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" th:if="${session.user == null}">
+                    <a class="nav-link" href="https://github.com/login/oauth/authorize?client_id=Iv1.2823c0b8b9face5b&redirect_uri=http://localhost:8080/callback&scope=user&state=1">登录</a>
+                </li>
+                <li class="nav-item dropdown" th:if="${session.user != null}">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" th:text="${session.user.getName()}">
+                        我
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">消息中心</a>
+                        <a class="dropdown-item" href="#">个人资料</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">退出登录</a>
+                    </div>
+                </li>
+                <li class="nav-item" th:if="${session.user != null}">
+                    <a class="nav-link disabled" href="#">头像</a>
+                </li>
+                <li class="nav-item" th:if="${session.user != null}">
+                    <a class="nav-link disabled" href="/publish">发布</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="搜索文章、问题、人物" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+            </form>
+        </div>
+
+
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                <h3>发布</h3>
+                <hr/>
+                <form action="/publish" method="post">
+                    <div class="form-group">
+                        <label for="title">问题标题（简单扼要）：</label>
+                        <input type="text" class="form-control" id="title" name="title" placeholder="问题标题...">
+                    </div>
+                    <div class="form-group">
+                        <label for="description">问题补充（必填，请参照右侧提示）：</label>
+                        <textarea id="description" name="description" class="form-control" cols="30" rows="10" placeholder="请输入内容，不能为空"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">添加标签：</label>
+                        <input type="text" class="form-control" id="tag" name="tag" placeholder="输入标签，以，号分隔">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">发布</button>
+                </form>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                <h3>问题发起指南</h3>
+                <hr/>
+                <div class="alert alert-success" role="alert">
+                    1.问题标题：请用简练的语言描述您发布的问题，不超过25字
+                    <br/><br/>
+                    2.问题补充：详细补充您的问题内容，并确保问题描述清晰直观，并提供一些相关的资料
+                    <br/><br/>
+                    3.选择标签：选择一个或者多个合适的标签，用逗号隔开，每个标签不超过10个字
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--javascript-->
+    <script type="text/javascript" src="js/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
